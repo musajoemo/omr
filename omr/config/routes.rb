@@ -1,4 +1,25 @@
 Omr::Application.routes.draw do
+
+  resources :pins
+
+  devise_for :users, path_names: {sign_in: "login", sign_out: "logout"}, controllers: {omniauth_callbacks: "omniauth_callbacks"}
+
+  devise_for :users
+
+  #get "pages/home"
+  get 'about' => 'pages#about'
+  #Working for Pins IF logged in....
+  get 'index_user' => "pins#index_user"
+  #See any users pins...
+  #get 'users/pins/:id' => "pins#any_user"
+  #root :to => 'pages#home'
+  root :to => 'pins#index'
+  # The priority is based upon order of creation:
+  # first created -> highest priority.
+
+  #root :to => 'pages#home'
+  #root :to => 'pins#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
