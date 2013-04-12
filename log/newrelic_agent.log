@@ -342,3 +342,51 @@ extra: !ruby/hash:Hashie::Mash
 [04/01/13 14:20:10 -0400 JGM-PC-Laptop (6528)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `persisted?' for nil:NilClass
 [04/01/13 14:27:42 -0400 JGM-PC-Laptop (6528)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `persisted?' for nil:NilClass
 [04/01/13 14:27:42 -0400 JGM-PC-Laptop (6528)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `persisted?' for nil:NilClass
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] INFO : Reading configuration from config/newrelic.yml
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] INFO : Starting the New Relic Agent.
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] INFO : Environment: development
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] INFO : Dispatcher: webrick
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] INFO : Application: My Application
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] WARN : Agent configured not to send data in this environment.
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] INFO : Installing ActiveRecord instrumentation
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] INFO : Installing Net instrumentation
+[04/02/13 13:48:10 -0400 JGM-PC-Laptop (7292)] INFO : Installing Rails 3 Controller instrumentation
+[04/02/13 13:48:11 -0400 JGM-PC-Laptop (7292)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/02/13 13:48:11 -0400 JGM-PC-Laptop (7292)] INFO : Installing Rails3 Error instrumentation
+[04/02/13 13:48:11 -0400 JGM-PC-Laptop (7292)] INFO : Finished instrumentation
+[04/02/13 13:57:46 -0400 JGM-PC-Laptop (7784)] INFO : Reading configuration from config/newrelic.yml
+[04/02/13 13:57:46 -0400 JGM-PC-Laptop (7784)] INFO : Starting the New Relic Agent.
+[04/02/13 13:57:46 -0400 JGM-PC-Laptop (7784)] INFO : Environment: development
+[04/02/13 13:57:46 -0400 JGM-PC-Laptop (7784)] INFO : Dispatcher: webrick
+[04/02/13 13:57:46 -0400 JGM-PC-Laptop (7784)] INFO : Application: My Application
+[04/02/13 13:57:46 -0400 JGM-PC-Laptop (7784)] WARN : Agent configured not to send data in this environment.
+[04/02/13 13:57:47 -0400 JGM-PC-Laptop (7784)] INFO : Installing ActiveRecord instrumentation
+[04/02/13 13:57:47 -0400 JGM-PC-Laptop (7784)] INFO : Installing Net instrumentation
+[04/02/13 13:57:47 -0400 JGM-PC-Laptop (7784)] INFO : Installing Rails 3 Controller instrumentation
+[04/02/13 13:57:47 -0400 JGM-PC-Laptop (7784)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/02/13 13:57:47 -0400 JGM-PC-Laptop (7784)] INFO : Installing Rails3 Error instrumentation
+[04/02/13 13:57:47 -0400 JGM-PC-Laptop (7784)] INFO : Finished instrumentation
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] INFO : Reading configuration from config/newrelic.yml
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] INFO : Starting the New Relic Agent.
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] INFO : Environment: development
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] INFO : Dispatcher: webrick
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] INFO : Application: My Application
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] WARN : Agent configured not to send data in this environment.
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] INFO : Installing ActiveRecord instrumentation
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] INFO : Installing Net instrumentation
+[04/02/13 14:02:21 -0400 JGM-PC-Laptop (4728)] INFO : Installing Rails 3 Controller instrumentation
+[04/02/13 14:02:22 -0400 JGM-PC-Laptop (4728)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/02/13 14:02:22 -0400 JGM-PC-Laptop (4728)] INFO : Installing Rails3 Error instrumentation
+[04/02/13 14:02:22 -0400 JGM-PC-Laptop (4728)] INFO : Finished instrumentation
+[04/10/13 14:00:07 -0400 JGM-PC-Laptop (6484)] INFO : Reading configuration from config/newrelic.yml
+[04/10/13 14:00:07 -0400 JGM-PC-Laptop (6484)] INFO : Starting the New Relic Agent.
+[04/10/13 14:00:07 -0400 JGM-PC-Laptop (6484)] INFO : Environment: development
+[04/10/13 14:00:07 -0400 JGM-PC-Laptop (6484)] INFO : Dispatcher: webrick
+[04/10/13 14:00:07 -0400 JGM-PC-Laptop (6484)] INFO : Application: My Application
+[04/10/13 14:00:07 -0400 JGM-PC-Laptop (6484)] WARN : Agent configured not to send data in this environment.
+[04/10/13 14:00:08 -0400 JGM-PC-Laptop (6484)] INFO : Installing ActiveRecord instrumentation
+[04/10/13 14:00:08 -0400 JGM-PC-Laptop (6484)] INFO : Installing Net instrumentation
+[04/10/13 14:00:08 -0400 JGM-PC-Laptop (6484)] INFO : Installing Rails 3 Controller instrumentation
+[04/10/13 14:00:10 -0400 JGM-PC-Laptop (6484)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/10/13 14:00:11 -0400 JGM-PC-Laptop (6484)] INFO : Installing Rails3 Error instrumentation
+[04/10/13 14:00:11 -0400 JGM-PC-Laptop (6484)] INFO : Finished instrumentation

@@ -9,9 +9,7 @@
 /tmp
 doc/
 *.swp
-*.lock
 *~
 .project
 .DS_Store
 .idea
-test
