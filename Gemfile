@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-
 gem 'aws-sdk', '~> 1.6.0'
 #gem 'nokogiri', '~> 1.4.4'
 gem 'paperclip', '~> 3.4.0'
