@@ -16,6 +16,7 @@ doc/
 
 # Ignore paperclip uploaded files
 /public/system
+public/system/*
 
 # Ignore metadata
 .metadata/*
