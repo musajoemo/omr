@@ -1,10 +1,14 @@
 Omr::Application.routes.draw do
 
+  get "user/show"
+
   resources :pins
 
   devise_for :users, path_names: {sign_in: "login", sign_out: "logout"}, controllers: {omniauth_callbacks: "omniauth_callbacks"}
 
   devise_for :users
+
+  match 'users/:id' => 'user#show', as: :user
 
   #get "pages/home"
   get 'about' => 'pages#about'
