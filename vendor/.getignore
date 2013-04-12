@@ -13,3 +13,12 @@ doc/
 .project
 .DS_Store
 .idea
+
+# Ignore paperclip uploaded files
+/public/system
+
+# Ignore metadata
+/.metadata
+
+# Ignore sample images
+/sampleimages
