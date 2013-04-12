@@ -18,9 +18,13 @@ doc/
 /public/system
 
 # Ignore metadata
+.metadata/*
 /.metadata
 
 # Ignore sample images
+sampleimages/*
 /sampleimages
 
-sampleimages/*
+
+
+
