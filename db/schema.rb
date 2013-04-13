@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130410181901) do
+ActiveRecord::Schema.define(:version => 20130413001535) do
 
   create_table "pins", :force => true do |t|
     t.string   "description"
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(:version => 20130410181901) do
     t.string   "name"
     t.string   "provider"
     t.string   "uid"
+    t.string   "slug"
   end
 
 end

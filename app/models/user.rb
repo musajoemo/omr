@@ -11,6 +11,10 @@ class User < ActiveRecord::Base
   validates_presence_of :username
   validates_uniqueness_of :username
 
+  extend FriendlyId
+  #friendly_id :username, use: :slugged
+  friendly_id :name, use: :slugged
+
   has_many :pins
    
   # *** One user profile

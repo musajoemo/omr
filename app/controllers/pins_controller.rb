@@ -20,7 +20,7 @@ class PinsController < ApplicationController
 
   def index_user
 
-    @pins = current_user.pins.all 
+    @pins = current_user.pins
 
     respond_to do |format|
       format.html # index_user.html.erb
@@ -36,6 +36,7 @@ class PinsController < ApplicationController
     respond_to do |format|
       format.html # index_user.html.erb
       format.json { render json: @pins }
+      format.js
     end
   end
 
