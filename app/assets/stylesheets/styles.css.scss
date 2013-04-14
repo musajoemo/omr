@@ -63,3 +63,19 @@ body {
 .time {
 	margin: 10px 0 5px;
 }
+
+.approved {
+	background-color: green;
+}
+
+.approval {
+	background-color: red;
+	a {
+		color: black;
+		text-decoration: underline;
+	}
+}
+
+/*.box {
+	width: 250px;
+}*/

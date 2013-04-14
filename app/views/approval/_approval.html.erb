@@ -1,0 +1,25 @@
+<div class="box">
+  <%= link_to (image_tag pin.image, width: "40px"), edit_approval_path(pin) %>
+  <p class="description">
+    <%= pin.description %>
+  </p>
+  <p>
+    <strong>
+      Spotted by <%= pin.user.name %>
+    </strong>
+  </p>
+  <% if pin.approved? %>
+    <div class="approved">
+      <p>
+        Approved
+      </p>
+    </div>
+  <% else %>
+    <div class="approval">
+      <p>
+        Needs approval: <%= link_to 'Approve?', edit_approval_path(pin) %>
+      </p>
+    </div>
+    
+  <% end %>
+</div>

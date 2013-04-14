@@ -1,0 +1,20 @@
+<%= simple_form_for(@pin, :url => approval_path, html: { class: "form-horizontal"}) do |f| %>
+  <%= f.error_notification %>
+  <%= f.full_error :image_file_size, class: "alert alert-error" %>
+  <%= f.full_error :image_content_type, class: "alert alert-error" %>
+
+  <p>
+  	<%= image_tag @pin.image %>
+  </p>
+  <p>
+  	<%= @pin.description %>
+  </p>
+  <p>
+  	By checking this box you approve this image and post. 
+  	<%= f.check_box :approved, {}, 'true', 'false' %>
+  </p>
+
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn btn-primary" %>
+  </div>
+<% end %>
