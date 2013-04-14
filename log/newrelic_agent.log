@@ -522,3 +522,27 @@ extra: !ruby/hash:Hashie::Mash
 [04/14/13 12:06:02 -0400 JGM-PC-Laptop (4684)] INFO : Installing Rails 3.1/3.2 view instrumentation
 [04/14/13 12:06:02 -0400 JGM-PC-Laptop (4684)] INFO : Installing Rails3 Error instrumentation
 [04/14/13 12:06:02 -0400 JGM-PC-Laptop (4684)] INFO : Finished instrumentation
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] INFO : Reading configuration from config/newrelic.yml
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] INFO : Starting the New Relic Agent.
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] INFO : Environment: development
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] INFO : Dispatcher: webrick
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] INFO : Application: My Application
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] WARN : Agent configured not to send data in this environment.
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] INFO : Installing ActiveRecord instrumentation
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] INFO : Installing Net instrumentation
+[04/14/13 13:19:08 -0400 JGM-PC-Laptop (7372)] INFO : Installing Rails 3 Controller instrumentation
+[04/14/13 13:19:09 -0400 JGM-PC-Laptop (7372)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/14/13 13:19:09 -0400 JGM-PC-Laptop (7372)] INFO : Installing Rails3 Error instrumentation
+[04/14/13 13:19:09 -0400 JGM-PC-Laptop (7372)] INFO : Finished instrumentation
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Reading configuration from config/newrelic.yml
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Starting the New Relic Agent.
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Environment: development
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Dispatcher: webrick
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Application: My Application
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] WARN : Agent configured not to send data in this environment.
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Installing ActiveRecord instrumentation
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Installing Net instrumentation
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Installing Rails 3 Controller instrumentation
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Installing Rails3 Error instrumentation
+[04/14/13 13:58:24 -0400 JGM-PC-Laptop (6152)] INFO : Finished instrumentation

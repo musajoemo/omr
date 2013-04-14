@@ -4,6 +4,10 @@ class ApprovalController < ApplicationController
     redirect_to home_path unless user_signed_in? && current_user.admin?
   end
 
+  def approved
+    @pins = Pin.where(approved: true).order("created_at desc")
+  end
+
   def index
     @pin = Pin.order("created_at desc")
   end

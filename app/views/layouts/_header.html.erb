@@ -17,7 +17,7 @@
       </ul>
       <ul class="nav pull-right">
         <% if @admin = user_signed_in?&&current_user.admin?%>
-            <li><%= link_to "Moderate", approval_index_path %></li>
+            <li><%= link_to "Admin", approval_index_path %></li>
             <%else%>
         <%end%>
         <% if user_signed_in?%>

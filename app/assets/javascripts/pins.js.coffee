@@ -6,12 +6,13 @@ jQuery ->
 	$('#pins').imagesLoad ->
 		$('#pins').masonry itemSelector: ".box"
 
+#endless scroll time below
+
   if $('.pagination').length
     $(window).scroll ->
       url = $('.pagination .next_page a').attr('href')
-      if url && $(window).scrollTop() > $(document).height() - $(window).height() - 10
-      	# What to do if at the bottom of the page.
-      	#alert("At the end!")
+      if url && $(window).scrollTop() > $(document).height() - $(window).height() - 50
+        # What to do at the bottom of the page 
         $('.pagination').text("Fetching more pins...")
         $.getScript(url)
     $(window).scroll()
